@@ -1,0 +1,22 @@
+
+:checked+label{background-color: yellow;
+}
+
+
+:checked+#USA{background-color: rgb(255, 30, 0);
+    float: left;
+}
+
+.Japan>input:checked{
+    background-color: blueviolet;
+    display: inline-flex;
+    flex-direction: reverse;
+}
+
+a{background-color: chartreuse}
+a:hover{background-color: crimson;
+font-family: 'Times New Roman', Times, serif;
+font-style: italic;
+font-weight: 700;
+font-size: x-large;}
+

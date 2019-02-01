@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dima.net - Сайт хороших новостей</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/.png" href="pictures/faviconka.png">
+</head>
+<body style="background-image: url(pictures/background.jpg); background-size: 100% 100%">
+    <header align="center">
+      <h1><a href="index.html">ГЛАВНАЯ</a>
+      <a href="news/news.html">НОВОСТИ</a>
+      <a href="media/media.html">МЕДИА</a>
+      <a href="about.html">О НАС</a>
+      <a href="contact.html">КОНТАКТЫ</a></h1>
+    </header><hr>
+    <main align="left">
+        
+        <h2 class="blink">Контакты</h2>
+        <p align="center"><strong><strong>Мы на карте:</strong></strong></p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10595.667388095619!2d35.02859853893299!3d48.40053999787436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbfb436084df87%3A0xff959223c3d7f6b4!2z0KLQvtC_0L7Qu9GMIDEsIDE1LCDQlNC90LjQv9GA0L4sINCU0L3QtdC_0YDQvtC_0LXRgtGA0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCA0OTAwMA!5e0!3m2!1sru!2sua!4v1546542298273"
+        align="right" vspace="5" hspace="5" width="600" height="450" frameborder="2px" style="border:0" allowfullscreen></iframe>
+            
+            <p><strong>Наш адрес:</strong> ж/м Тополь-1, дом 15, корп 3, кв,115, г.Днепр, Украина, 49040 </p>
+            <p><strong>Сабадаш Дмитрий</strong>  — коммерческий директор</p>
+            <p><strong>Сабадаш Вероника</strong> — директор по работе с клиентами</p>  
+            <p><strong>Сабадаш Назар</strong> — ведущий менеджер по контролю качества</p>
+            <p><strong>Сабадаш Елизавета</strong> — старший сценарист</p>
+            <p><strong>Контакты:</strong> +38 (097) 409-45-96, +38 (096) 022-85-80, <a href="mailto:sabadash.dmytro@gmail.com">e-mail:sabadash.dmytro@gmail.com</a></p>
+        
+        <h2 class="blenk">Написать нам</h2>
+        <form method="POST">
+            <div>   
+            <input type="text" required name="username" maxlength="20" placeholder="Введите имя"><label>Введите имя*</label>
+            </div><br> 
+            <div>
+            <input type="email" required name="email" maxlength="20" placeholder="Введите e-mail"><label>Укажите адрес электронной почты*</label>
+            </div><br>
+            <div>
+                <input type="text" readonly placeholder="Прочтите страницу"><label>Нельзя откорректриовать</label>
+            </div><br>
+            <div>
+            <label></label><input type="tel" name="phone" maxlength="20" pattern="[0-9]" placeholder="ХХ(ХХХ)ХХХХХХХ">Укажите номер телефона</label>
+            </div><br>
+            <select name="theme">
+                <option value="novideo">Не отображается видео</option>
+                <option value="nopictures">Не отображаются рисунки</option>
+                <option value="nosound">Отсутствует звук</option>
+                <option value="norefresh">Не обновляется страница</option>
+                <option selected value="Other">Прочее</option>               
+                </select><label>Выберите тему для общения</label><br>
+                <textarea name="description">Описание</textarea><br>
+                <p>Поля отмеченые * обязательны для заполнения</p>
+                <textarea name="description" cols="30" rows="5" disabled>Это поле disabled, нельзя корректировать </textarea><br>
+
+            <input type="submit" name="form" value="Все заполнено верно, отправить!" style="background-color:chartreuse">
+        
+        </form>
+
+    </main>
+
+
+
+    <footer align="center"><hr>
+       <sub> <a href="editers.html">Редакция</a>
+        <a href="https://ads.google.com/intl/uk_ua/start/?subid=ua-uk-ha-g-aw-c-0-s4_xx_txx_xx_xx_bau_non!o2~1485457376-284214574296-kwd-401729650&sourceid=awo&utm_source=aw&utm_medium=ha&utm_campaign=ua-uk-ha-g-aw-c-0-s4_xx_txx_xx_xx_bau_non!o2~1485457376-284214574296-kwd-401729650&gclid=CjwKCAiAgrfhBRA3EiwAnfF4tkDyllE4a2ADbtB6YFwsNQnLjtqjqs8fRWDN9fTLRbBli07dxCEdQhoCk6wQAvD_BwE" target="_blank">Реклама</a>
+        <a href="mailto:sabadash.dmytro@gmail.com">Техподдержка</a>
+        <a href="https://www.work.ua/ru/jobs/by-company/427813/?gclid=CjwKCAiAgrfhBRA3EiwAnfF4toiY5gE_zCLY9e3eqzM86OtVVXjX0C9ewkt5BAy8u2Wj-Ml75Y-YrxoCI-UQAvD_BwE" target="_blank">Вакансии</a>
+        <p>©2019 DimonSabaGroup. All Rights Reserved</p></sub>
+    </footer>
+    
+</body>
+</html>

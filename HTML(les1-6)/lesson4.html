@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Lesson 4</title>
+</head>
+<body>
+<form action="search.php" method="GET">
+    <input type="text" name="query">
+    <input type="submit" value="Search">
+</form>
+
+<form method="GET">
+    <input type="text" name="query">
+    <input type="submit" value="Search">
+</form>
+
+    <button>Search</button>
+
+<form method="POST">
+    <input type="text" name="username">
+    <input type="password" name="password"></input>
+    <input type="submit" value="login">
+</form>
+
+
+<!-- Чекбоксы для отметки галочек-->
+<form method="GET"><h3>Вопрос 1</h3>
+<div> 
+    <input type="checkbox" name="question1[]" value="answer1">
+    <label>Ответ 1</label>
+</div>
+<div> 
+        <input type="checkbox" name="question1[]" value="answer2">
+        <label>Ответ 2</label>
+    </div>
+    <div> 
+            <input type="checkbox" name="question1[]" value="answer3">
+            <label>Ответ 3</label>
+    </div>
+    <h3>Вопрос 2</h3>
+    <div> 
+            <input type="checkbox" name="question2[]" value="answer4">
+            <label>Ответ 2</label>
+        </div>
+        <div> 
+                <input type="checkbox" name="question2[]" value="answer5">
+                <label>Ответ 3</label>
+        </div>
+
+        <input type="submit" value="search">
+    </form>
+
+
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="img">
+        <input type="submit" value="upload">
+    </form>
+
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="img[]" multiple>
+        <input type="submit" value="Отправить">
+    </form>
+
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="img[]" accept="image/*">
+        <input type="submit" value="Отправить">
+    </form>
+    
+    <form method="POST" enctype="multipart/form-data">
+        <input type="file" name="img[]" accept="image/*">
+        <input type="submit" value="Отправить">
+    </form>
+
+
+    <form method="POST" >
+        <input type="hidden" name="_method" value="put">
+        <input type="submit" value="Отправить">
+    </form>
+
+    <form method="POST" >
+            <input type="color" name="color">
+            <input type="submit" value="Отправить">
+        </form>
+       
+        <form method="POST" >
+                <input type="date" name="date">
+                <input type="submit" value="Отправить">
+            </form>
+
+            <form method="POST" >
+                    <input type="date" name="date" min="2018-12-01" max="2018-12-25">
+
+                    <input type="submit" value="Отправить">
+                </form>
+     <form method="POST" >
+                <input type="datetime-local" name="date">
+                <input type="submit" value="Отправить">
+            </form>
+
+            <form method="POST" >
+                    <input type="email" name="email">
+                    <input type="submit" value="Отправить">
+                </form>
+
+                <form method="POST" >
+                        <input type="email" required name="email">
+                        <input type="submit" value="Отправить">
+                    </form>
+
+                    <form method="post">
+                            <input type="text" pattern="[0-9],{3}">
+                            <input type="submit" value="Отправить">
+                     </form>
+
+                     <form method="post">
+                            <input type="number" min="0" max="15" step="0.1">
+                            <input type="submit" value="Отправить">
+                     </form>
+                     <form method="post">
+                            <input type="number" min="0" max="15" step="0.1" placeholder="сабака криворукий">
+                            <input type="submit" value="Отправить">
+                     </form>
+
+                     <form method="post">
+                            <input type="range">
+                            <input type="submit" value="Отправить">
+                     </form>
+
+                     <form method="post">
+                            <input type="search">
+                            <input type="submit" value="Отправить">
+                     </form>
+
+                     <form method="post">
+                            <input type="week">
+                            <input type="submit" value="Отправить">
+                     </form>
+    
+    
+    
+
+
+
+
+
+
+    
+</body>
+</html>

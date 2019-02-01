@@ -1,0 +1,33 @@
+ img+div {
+    height: 300px;
+    background-color:green;
+}
+p { 
+    width: 4px;
+    color: blue
+
+}
+
+
+.test2 {color: green}
+.ex+.test2 {color: red}
+
+a[target="_blank"]{
+    color:gold;
+}
+
+a[href*="live"]{
+    color: brown;} 
+
+a[href$="us"]{background-color: pink;}
+a[href$="ua"]{background-color: green;}
+a[href$="com"]{background-color: red;}
+
+a[href^="https"]{font-size: 10mm;}
+a[href^="http:"]{font-size: 40mm}
+
+input[required] {background-color: hotpink;}
+
+input:checked {color: hotpink;
+width: 40mm;
+height: 40mm;}

@@ -1,0 +1,70 @@
+input:required{
+    border-color: red;
+}
+
+input:read-only{border-color: green;
+text-align: center;
+background-color:yellowgreen;}
+
+textarea:disabled{
+    background: url(pictures/background.jpg); 
+    border: 1px solid blueviolet; 
+    padding: 5px;
+}
+input:focus{
+    border: 2px blue solid;
+    background-color:lightsalmon;
+}
+
+input:invalid{background-color:rgb(243, 69, 69);
+}
+input:valid{background-color: rgb(53, 197, 53);
+}
+:visited{background-color: rgb(0, 255, 191);}
+:active{background-color: green;}
+:link{background-color: orange;}
+a:hover{text-decoration: none;}
+
+p::first-letter{color:green;
+font-size: xx-large;}
+
+.blink{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    animation:blur .75s ease-out infinite;
+    text-shadow:text-shadow: 0 0 5px #abc,
+     0 0 7px #abc;
+  }
+  
+  @keyframes blur{
+    from{
+        text-shadow:0px 0px 10px #fff,
+        0px 0px 10px #fff, 
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 25px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #fff,
+        0px 0px 50px #7B96B8,
+        0px 0px 150px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px 10px 100px #7B96B8,
+        0px -10px 100px #7B96B8,
+        0px -10px 100px #7B96B8;}
+  }
+
+  .blenk{
+    animation: blink 2s infinite;}
+   @keyframes blink {
+    from { opacity: 1;}
+    to { opacity: 0;}
+   } 
+
+   h1>a::before{content:"\2055";}

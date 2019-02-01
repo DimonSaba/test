@@ -1,0 +1,36 @@
+/* .ex:focus{
+    border: 2px rgb(0, 255, 0) solid;
+    background-color: green}
+
+ 
+
+.ex:invalid{
+    border: 2px red solid;
+    background-color: red
+}:required:valid{
+    border: 2px blue solid;
+    background-color: blue;}
+
+    .ex2:visited{background-color: rgb(0, 255, 191);}
+    .ex:active{background-color: green;}
+    .ex1:link{background-color: orange;}
+    .ex:hover{background-color: brown;}
+    .submenu{display: none;}
+    :hover+.submenu{display:block}
+    li:last-child{background-color: red;}
+    li:first-child{background-color:blueviolet;}
+
+ul>li:nth-child(even){background-color: chartreuse;}
+ul>li:nth-child(odd){background-color: rgb(47, 0, 255);}
+
+
+p::after{content:".";}
+p::first-line{color: red;}
+p::first-letter{background-color: seagreen;}
+p::selection{color: white;}*/
+@font-face{font-family:"ex";
+src: url(QiaraTosfa.ttf)}
+p{font-family:"ex";
+font-size: xx-large}
+
+

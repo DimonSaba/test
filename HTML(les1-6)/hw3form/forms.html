@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Methods-forms-types</title>
+</head>
+<body>
+    <h1>Опросный лист</h1><hr>
+    <form method="POST">
+        <div>   
+        <input type="text" required name="username" placeholder="Введите имя"><label>Введите имя пользователя</label>
+        </div><br>   
+        <div>
+        <input type="text" required name="nickname" placeholder="Введите ник"><label>Введите ник</label>
+        </div><br>
+        <div>
+        <input type="password" required name="password" placeholder="Введите пароль"><label>Введите пароль</label>
+        </div><br> 
+        <div>
+        <input type="password" required name="password" placeholder="Повторите пароль"><label>Введите пароль еще раз</label>
+        </div><br>    
+        <strong>Укажите пол</strong>
+        <div><input type="radio" name="sex" value="male"><value>Мужской</value>
+            <input type="radio" name="sex" value="женский"><value>Женский</value>
+        </div><br>
+        <div>
+            <input type="date" required name="datebirth" placeholder="ДД-ММ-ГГГГ"><label>Укажите дату, месяц и год рождения</label>
+        </div><br>
+        <div>
+            <input type="email" required name="email" placeholder="Введите e-mail"><label>Укажите адрес электронной почты</label>
+        </div><br>
+        <div>
+            <input type="tel" required name="phone" placeholder="+ХХ(ХХХ)ХХХХХХХ"><label>Укажите номер телефона</label>
+        </div><br>
+        <div>
+            <label>Загрузите аватар</label><input type="file" name="avatar" placeholder="Загрузите аватар" accept="image/.jpeg,png,pdf">
+        </div><br>
+        <div><label>Укажите любимый цвет</label><input type="color" name="color"></div>
+        <div>
+        <input type="datetime-local" name="dt-local"><label>Укажите желаемую дату и время для общения</label>
+        </div><br>
+        <strong>Выберите темы для общения</strong>
+        <table border="0" cellpadding="1">
+            <tr style="background-color:cyan">
+                <td><input type="checkbox" name="theme1"><label>Футбол</label></td>
+                <td><input type="checkbox" name="theme2"><label>Философия</label></td>
+                <td><input type="checkbox" name="theme3"><label>Футбол</label></td>
+            </tr>
+            <tr style="background-color:yellow">
+                <td><input type="checkbox" name="theme4"><label>Наруто</label></td>
+                <td><input type="checkbox" name="theme5"><label>Пьяный базар</label></td>
+                <td><input type="checkbox" name="theme6"><label>Комиксы</label></td>
+            </tr>
+        </table><br>
+        <h2>Не надоело заполнять форму?</h2>
+        <div><input type="radio" name="tease"><label>Да</label>
+        <input type="radio" name="tease"><label>Нет</label></div>
+        <br><hr>
+        <input type="submit" name="form" value="Все заполнено верно, отправить форму" style="background-color:chartreuse">
+        <input type="reset" name="reset" value="Очистить форму"> 
+    </form>
+    
+</body>
+</html>
